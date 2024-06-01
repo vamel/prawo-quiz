@@ -53,7 +53,7 @@ const questions = [
             "powinno być dokonane w terminie:",
         answers: ["2 tygodni od zajścia zdarzenia, chyba że ustawa stanowi inaczej",
             "tygodnia od zajścia zdarzenia, chyba że ustawa stanowi inaczej",
-            "jednoosobowa"],
+            "miesiąca od zajścia zdarzenia, chyba że ustawa stanowi inaczej"],
         goodAnswer: "2 tygodni od zajścia zdarzenia, chyba że ustawa stanowi inaczej"
     },
     // {
