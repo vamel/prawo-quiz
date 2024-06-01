@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/prawo-quiz/static/css/main.90df0596.css",
+    "main.js": "/prawo-quiz/static/js/main.89131f48.js",
+    "index.html": "/prawo-quiz/index.html",
+    "main.90df0596.css.map": "/prawo-quiz/static/css/main.90df0596.css.map",
+    "main.89131f48.js.map": "/prawo-quiz/static/js/main.89131f48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90df0596.css",
+    "static/js/main.89131f48.js"
+  ]
+}
