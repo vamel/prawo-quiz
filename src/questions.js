@@ -445,7 +445,7 @@ const questions = [
         goodAnswer: "nie odpowiadają"
     },
     {
-        question: "Jeżeli wspólnikowi mają być przyznane szczególne korzyści lub jeżeli na wspólników mają być nałożone, oprócz wniesienia wkładów na pokrycie udziałów, inne\n" +
+        question: "Jeżeli wspólnikowi mają być przyznane szczególne korzyści lub jeżeli na wspólników mają być nałożone, oprócz wniesienia wkładów na pokrycie udziałów, inne " +
             "obowiązki wobec spółki, należy to dokładnie określić w umowie spółki pod rygorem:",
         answers: ["bezskuteczności wobec spółki",
             "nieważności",
@@ -454,17 +454,17 @@ const questions = [
     },
     {
         question: "Kwoty przeznaczone do podziału między wspólników spółki z ograniczoną odpowiedzialnością nie mogą przekraczać:",
-        answers: ["zysku za ostatni rok obrotowy, powiększonego o kwoty przekazane na kapitały\n" +
+        answers: ["zysku za ostatni rok obrotowy, powiększonego o kwoty przekazane na kapitały " +
         "(fundusze) rezerwowe w poprzednich latach",
-            "zysku za ostatni rok obrotowy, powiększonego o niepodzielone zyski z lat ubiegłych\n" +
+            "zysku za ostatni rok obrotowy, powiększonego o niepodzielone zyski z lat ubiegłych " +
             "oraz o kwoty przeniesione z utworzonych z zysku kapitałów zapasowego i rezerwowych, " +
             "które mogą być przeznaczone do podziału, przy czym kwotę tę należy pomniejszyć o " +
             "niepokryte straty, udziały własne oraz o kwoty, które zgodnie z ustawą lub umową " +
             "spółki powinny być przekazane z zysku za ostatni rok obrotowy na kapitał zapasowy lub rezerwowe",
-            "zysku za ostatni rok obrotowy, pomniejszonego o poniesioną stratę oraz o kwoty\n" +
-            "przekazane na fundusze rezerwowe utworzone zgodnie z ustawą lub umową spółki,\n" +
+            "zysku za ostatni rok obrotowy, pomniejszonego o poniesioną stratę oraz o kwoty " +
+            "przekazane na fundusze rezerwowe utworzone zgodnie z ustawą lub umową spółki, " +
             "które nie mogą być przeznaczone na wypłatę dywidendy"],
-        goodAnswer: "zysku za ostatni rok obrotowy, powiększonego o niepodzielone zyski z lat ubiegłych\n" +
+        goodAnswer: "zysku za ostatni rok obrotowy, powiększonego o niepodzielone zyski z lat ubiegłych " +
             "oraz o kwoty przeniesione z utworzonych z zysku kapitałów zapasowego i rezerwowych, " +
             "które mogą być przeznaczone do podziału, przy czym kwotę tę należy pomniejszyć o " +
             "niepokryte straty, udziały własne oraz o kwoty, które zgodnie z ustawą lub umową " +
@@ -474,9 +474,9 @@ const questions = [
         question: "Spółka z ograniczoną odpowiedzialnością może wypłacić zaliczkę na poczet przewidywanej dywidendy, jeżeli:",
         answers: ["jej sprawozdanie finansowe za poprzedni rok obrotowy nie wykazuje strat",
             "umowa spółki przewiduje taką możliwość, a jej sprawozdanie finansowe za poprzedni rok obrotowy nie wykazuje strat",
-            "jej zatwierdzone sprawozdanie finansowe za poprzedni rok obrotowy wykazuje\n" +
+            "jej zatwierdzone sprawozdanie finansowe za poprzedni rok obrotowy wykazuje " +
             "zysk"],
-        goodAnswer: "jej zatwierdzone sprawozdanie finansowe za poprzedni rok obrotowy wykazuje\n" +
+        goodAnswer: "jej zatwierdzone sprawozdanie finansowe za poprzedni rok obrotowy wykazuje " +
             "zysk"
     },
     {
@@ -487,7 +487,7 @@ const questions = [
         goodAnswer: "umorzeniem przymusowym"
     },
     {
-        question: "Umorzenie udziału w spółce z ograniczoną odpowiedzialnością w razie ziszczenia\n" +
+        question: "Umorzenie udziału w spółce z ograniczoną odpowiedzialnością w razie ziszczenia " +
             "się określonego zdarzenia bez powzięcia uchwały zgromadzenia wspólników jest",
         answers: ["dopuszczalne, o ile umowa spółki tak stanowi",
             "dopuszczalne",
@@ -524,13 +524,13 @@ const questions = [
     },
     {
         question: "Wspólnicy spółki z ograniczoną odpowiedzialnością:",
-        answers: ["mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawo głosu\n" +
+        answers: ["mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawo głosu " +
         "przez pełnomocników, jeżeli ustawa lub umowa spółki nie zawierają w tym względzie ograniczeń",
-            "mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawo głosu\n" +
+            "mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawo głosu " +
             "przez pełnomocników",
-            "nie mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawa głosu\n" +
+            "nie mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawa głosu " +
             "przez pełnomocników"],
-        goodAnswer: "mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawo głosu\n" +
+        goodAnswer: "mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawo głosu " +
             "przez pełnomocników, jeżeli ustawa lub umowa spółki nie zawierają w tym względzie ograniczeń"
     },
     {
@@ -548,8 +548,8 @@ const questions = [
         goodAnswer: "dopuszczalne, ale tylko z ważnych powodów i w celu zabezpieczenia powództwa o wyłączenie wspólnika ze spółki"
     },
     {
-        question: "Do sądu rejestrowego należy zgłosić: otwarcie likwidacji, nazwiska i imiona\n" +
-            "likwidatorów oraz ich adresy, sposób reprezentowania spółki przez likwidatorów\n" +
+        question: "Do sądu rejestrowego należy zgłosić: otwarcie likwidacji, nazwiska i imiona " +
+            "likwidatorów oraz ich adresy, sposób reprezentowania spółki przez likwidatorów " +
             "i wszelkie w tym zakresie zmiany, nawet gdyby nie nastąpiła żadna zmiana w dotychczasowej reprezentacji spółki. Prawo i obowiązek dokonania zgłoszenia ma:",
         answers: ["zarząd oraz każdy likwidator",
             "każdy likwidator",
@@ -597,6 +597,82 @@ const questions = [
             "mają formę dokumentu jak w spółce akcyjnej",
             "nie mają formy dokumentu"],
         goodAnswer: "nie mają formy dokumentu"
+    },
+    // {
+    //     question: "",
+    //     answers: ["",
+    //         "",
+    //         ""],
+    //     goodAnswer: ""
+    // },
+    {
+        question: "Członkowie zarządu, rady nadzorczej lub komisji rewizyjnej oraz likwidatorzy łączących się spółek " +
+            "odpowiadają wobec wspólników tych spółek za szkody wyrządzone działaniem lub zaniechaniem, sprzecznym z prawem " +
+            "lub postanowieniami umowy albo statutu spółki, chyba że nie ponoszą winy, odpowiadają:",
+        answers: ["oddzielnie",
+            "solidarnie",
+            "solidarnie, chyba że ustawa stanowi inaczej"],
+        goodAnswer: "solidarnie"
+    },
+    {
+        question: "Objęcie przez przejmującą spółkę kapitałową udziałów albo akcji własnych za udziały lub akcje, które " +
+            "posiada w spółce przejmowanej, oraz za własne udziały lub akcje spółki przejmowanej, a także objęcie udziałów lub akcji " +
+            "własnych przez osoby działające we własnym imieniu, lecz na rachunek spółki przejmującej bądź spółki przejmowanej jest:",
+        answers: ["dozwolone",
+            "niedozwolone",
+            "niedozwolone, chyba że ustawa stanowi inaczej"],
+        goodAnswer: "niedozwolone"
+    },
+    {
+        question: "Plan połączenia spółek należy poddać badaniu przez biegłego w zakresie poprawności i rzetelności, " +
+            "gdy spółka przejmującą albo nowo zawiązaną jest spółka:",
+        answers: ["z ograniczoną odpowiedzialnością lub gdy jedną z łączących się spółek jest spółka akcyjna",
+            "akcyjna lub gdy jedną z łączących się spółek jest spółka komandytowo-akcyjna",
+            "jawna lub gdy jedną z łączących się spółek jest spółka z ograniczoną odpowiedzialnością"],
+        goodAnswer: "akcyjna lub gdy jedną z łączących się spółek jest spółka komandytowo-akcyjna"
+    },
+    {
+        question: "Łączenie się spółek wymaga uchwały zgromadzenia wspólników lub walnego zgromadzenia łączącej się spółki kapitałowej i uchwały wszystkich wspólników " +
+            "łączącej się spółki osobowej. Uchwała zgromadzenia wspólników lub walnego zgromadzenia łączącej się spółki kapitałowej wymaga większości:",
+        answers: ["2/3 głosów, reprezentujących co najmniej połowę kapitału zakładowego",
+            "3/4 głosów, reprezentujących co najmniej połowę kapitału zakładowego",
+            "3/4 głosów, reprezentujących co najmniej połowę kapitału zakładowego, chyba że umowa lub statut spółki przewidują surowsze warunki"],
+        goodAnswer: "3/4 głosów, reprezentujących co najmniej połowę kapitału zakładowego, chyba że umowa lub statut spółki przewidują surowsze warunki"
+    },
+    {
+        question: "Członkowie zarządu, rady nadzorczej lub komisji rewizyjnej oraz likwidatorzy " +
+            "łączącej się spółki kapitałowej odpowiadają wobec wspólników tej spółki za szkody " +
+            "wyrządzone działaniem lub zaniechaniem sprzecznym z prawem lub postanowieniami umowy albo statutu spółki:",
+        answers: ["solidarnie",
+            "solidarnie, chyba że nie ponoszą winy",
+            "tylko subsydiarnie"],
+        goodAnswer: "solidarnie, chyba że nie ponoszą winy"
+    },
+    {
+        question: "Plan podziału spółki wymaga pisemnego uzgodnienia między spółką dzieloną " +
+            "a spółką przejmującą. W przypadku podziału przez zawiązanie nowej spółki plan " +
+            "podziału sporządza:",
+        answers: ["zarząd spółki dzielonej, plan ma formę aktu notarialnego",
+            "zarząd spółki dzielonej w formie pisemnej",
+            "w formie pisemnej spółka dzielona"],
+        goodAnswer: "w formie pisemnej spółka dzielona"
+    },
+    {
+        question: "Wierzyciele dzielonej spółki oraz spółki przejmującej, którzy zgłosili swoje " +
+            "roszczenia w okresie między dniem ogłoszenia planu podziału a dniem ogłoszenia " +
+            "podziału:",
+        answers: ["mogą żądać zabezpieczenia swoich roszczeń",
+            "mogą żądać zabezpieczenia swoich roszczeń, jeśli uprawdopodobnili, że ich zaspokojenie jest zagrożone przez podział",
+            "nie mogą żądać zabezpieczenia swoich roszczeń"],
+        goodAnswer: "mogą żądać zabezpieczenia swoich roszczeń, jeśli uprawdopodobnili, że ich zaspokojenie jest zagrożone przez podział"
+    },
+    {
+        question: "Powództwo o uchylenie uchwały o przekształceniu spółki osobowej bądź spółki " +
+            "kapitałowej albo stwierdzenie jej nieważności należy wnieść w terminie:",
+        answers: ["3 miesięcy od dnia otrzymania wiadomości o uchwale",
+            "miesiąca od dnia otrzymania wiadomości o uchwale, nie później jednak niż w terminie 3 miesięcy od dnia powzięcia uchwały",
+            "3 miesięcy od dnia otrzymania wiadomości o uchwale, nie później jednak niż w terminie 6 miesięcy od dnia powzięcia uchwały"],
+        goodAnswer: "miesiąca od dnia otrzymania wiadomości o uchwale, nie później jednak niż w terminie 3 miesięcy od dnia powzięcia uchwały"
     },
 ];
 
