@@ -430,13 +430,174 @@ const questions = [
             "niemożliwe, o ile statut inaczej nie stanowi"],
         goodAnswer: "możliwe"
     },
-    // {
-    //     question: "",
-    //     answers: ["",
-    //         "",
-    //         ""],
-    //     goodAnswer: ""
-    // },
+    {
+        question: "Spółka z ograniczoną odpowiedzialnością może być utworzona przez:",
+        answers: ["jedną albo więcej osób w każdym celu, prawnie dopuszczalnym, chyba że ustawa stanowi inaczej",
+            "jedną albo więcej osób w celu prowadzenia działalności gospodarczej, chyba że ustawa stanowi inaczej",
+            "co najmniej 2 osoby w każdym celu, prawnie dopuszczalnym, chyba że ustawa lub umowa spółki stanowi inaczej"],
+        goodAnswer: "jedną albo więcej osób w każdym celu, prawnie dopuszczalnym, chyba że ustawa stanowi inaczej"
+    },
+    {
+        question: "Wspólnicy spółki z ograniczoną odpowiedzialnością za zobowiązania spółki:",
+        answers: ["odpowiadają tylko do wysokości określonej kwoty",
+            "odpowiadają całym swym majątkiem",
+            "nie odpowiadają"],
+        goodAnswer: "nie odpowiadają"
+    },
+    {
+        question: "Jeżeli wspólnikowi mają być przyznane szczególne korzyści lub jeżeli na wspólników mają być nałożone, oprócz wniesienia wkładów na pokrycie udziałów, inne\n" +
+            "obowiązki wobec spółki, należy to dokładnie określić w umowie spółki pod rygorem:",
+        answers: ["bezskuteczności wobec spółki",
+            "nieważności",
+            "cofnięcia szczególnych obowiązków lub korzyści"],
+        goodAnswer: "bezskuteczności wobec spółki"
+    },
+    {
+        question: "Kwoty przeznaczone do podziału między wspólników spółki z ograniczoną odpowiedzialnością nie mogą przekraczać:",
+        answers: ["zysku za ostatni rok obrotowy, powiększonego o kwoty przekazane na kapitały\n" +
+        "(fundusze) rezerwowe w poprzednich latach",
+            "zysku za ostatni rok obrotowy, powiększonego o niepodzielone zyski z lat ubiegłych\n" +
+            "oraz o kwoty przeniesione z utworzonych z zysku kapitałów zapasowego i rezerwowych, " +
+            "które mogą być przeznaczone do podziału, przy czym kwotę tę należy pomniejszyć o " +
+            "niepokryte straty, udziały własne oraz o kwoty, które zgodnie z ustawą lub umową " +
+            "spółki powinny być przekazane z zysku za ostatni rok obrotowy na kapitał zapasowy lub rezerwowe",
+            "zysku za ostatni rok obrotowy, pomniejszonego o poniesioną stratę oraz o kwoty\n" +
+            "przekazane na fundusze rezerwowe utworzone zgodnie z ustawą lub umową spółki,\n" +
+            "które nie mogą być przeznaczone na wypłatę dywidendy"],
+        goodAnswer: "zysku za ostatni rok obrotowy, powiększonego o niepodzielone zyski z lat ubiegłych\n" +
+            "oraz o kwoty przeniesione z utworzonych z zysku kapitałów zapasowego i rezerwowych, " +
+            "które mogą być przeznaczone do podziału, przy czym kwotę tę należy pomniejszyć o " +
+            "niepokryte straty, udziały własne oraz o kwoty, które zgodnie z ustawą lub umową " +
+            "spółki powinny być przekazane z zysku za ostatni rok obrotowy na kapitał zapasowy lub rezerwowe"
+    },
+    {
+        question: "Spółka z ograniczoną odpowiedzialnością może wypłacić zaliczkę na poczet przewidywanej dywidendy, jeżeli:",
+        answers: ["jej sprawozdanie finansowe za poprzedni rok obrotowy nie wykazuje strat",
+            "umowa spółki przewiduje taką możliwość, a jej sprawozdanie finansowe za poprzedni rok obrotowy nie wykazuje strat",
+            "jej zatwierdzone sprawozdanie finansowe za poprzedni rok obrotowy wykazuje\n" +
+            "zysk"],
+        goodAnswer: "jej zatwierdzone sprawozdanie finansowe za poprzedni rok obrotowy wykazuje\n" +
+            "zysk"
+    },
+    {
+        question: "Gdy udział w spółce z ograniczoną odpowiedzialnością jest umarzany bez zgody wspólnika, mamy do czynienia z:",
+        answers: ["umorzeniem przymusowym",
+            "redukcją przymusową",
+            "umorzeniem niedobrowolnym"],
+        goodAnswer: "umorzeniem przymusowym"
+    },
+    {
+        question: "Umorzenie udziału w spółce z ograniczoną odpowiedzialnością w razie ziszczenia\n" +
+            "się określonego zdarzenia bez powzięcia uchwały zgromadzenia wspólników jest",
+        answers: ["dopuszczalne, o ile umowa spółki tak stanowi",
+            "dopuszczalne",
+            "niedopuszczalne"],
+        goodAnswer: "dopuszczalne, o ile umowa spółki tak stanowi"
+    },
+    {
+        question: "Mandat członka zarządu spółki z ograniczoną odpowiedzialnością wygasa z dniem:",
+        answers: ["odbycia zgromadzenia wspólników zatwierdzającego sprawozdanie finansowe za rok obrotowy pełnienia funkcji członka zarządu",
+            "odbycia zgromadzenia wspólników zatwierdzającego sprawozdanie finansowe za pierwszy pełny rok obrotowy pełnienia funkcji członka zarządu, chyba że ustawa stanowi inaczej",
+            "odbycia zgromadzenia wspólników zatwierdzającego sprawozdanie finansowe za pierwszy pełny rok obrotowy pełnienia funkcji członka zarządu, jeżeli umowa spółki nie stanowi inaczej"],
+        goodAnswer: "odbycia zgromadzenia wspólników zatwierdzającego sprawozdanie finansowe za pierwszy pełny rok obrotowy pełnienia funkcji członka zarządu, jeżeli umowa spółki nie stanowi inaczej"
+    },
+    {
+        question: "Ograniczenie członka zarządu spółki z ograniczoną odpowiedzialnością w reprezentowaniu spółki wobec osób trzecich jest:",
+        answers: ["niedopuszczalne",
+            "dopuszczalne",
+            "dopuszczalne tylko wtedy, gdy umowa spółki tak stanowi"],
+        goodAnswer: "niedopuszczalne"
+    },
+    {
+        question: "Rada nadzorcza lub komisja rewizyjna powinna być ustanowiona w spółkach z ograniczoną odpowiedzialnością, w których:",
+        answers: ["wspólników jest więcej niż 20",
+            "kapitał zakładowy przewyższa kwotę 500 000 zł, a wspólników jest więcej niż 25",
+            "kapitał zakładowy przewyższa kwotę 250 000 zł"],
+        goodAnswer: "kapitał zakładowy przewyższa kwotę 500 000 zł, a wspólników jest więcej niż 25"
+    },
+    {
+        question: "Zwyczajne zgromadzenie wspólników spółki z ograniczoną odpowiedzialnością powinno odbyć się w terminie:",
+        answers: ["6 miesięcy po upływie każdego roku obrotowego",
+            "6 miesięcy po upływie każdego roku",
+            "3 miesięcy po upływie każdego roku"],
+        goodAnswer: "6 miesięcy po upływie każdego roku obrotowego"
+    },
+    {
+        question: "Wspólnicy spółki z ograniczoną odpowiedzialnością:",
+        answers: ["mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawo głosu\n" +
+        "przez pełnomocników, jeżeli ustawa lub umowa spółki nie zawierają w tym względzie ograniczeń",
+            "mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawo głosu\n" +
+            "przez pełnomocników",
+            "nie mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawa głosu\n" +
+            "przez pełnomocników"],
+        goodAnswer: "mogą uczestniczyć w zgromadzeniu wspólników oraz wykonywać prawo głosu\n" +
+            "przez pełnomocników, jeżeli ustawa lub umowa spółki nie zawierają w tym względzie ograniczeń"
+    },
+    {
+        question: "Podwyższenie kapitału zakładowego spółki z ograniczoną odpowiedzialnością następuje przez:",
+        answers: ["ustanowienie nowych udziałów w spółce - wyłącznie",
+            "podwyższenie wartości nominalnej udziałów istniejących lub ustanowienie nowych",
+            "podwyższenie wartości nominalnej udziałów istniejących, ustanowienie nowych lub wniesienie aportu"],
+        goodAnswer: "podwyższenie wartości nominalnej udziałów istniejących lub ustanowienie nowych"
+    },
+    {
+        question: "Zawieszenie wspólnika spółki z ograniczoną odpowiedzialnością w wykonywaniu jego praw udziałowych w spółce jest:",
+        answers: ["niedopuszczalne",
+            "dopuszczalne, ale tylko z ważnych powodów",
+            "dopuszczalne, ale tylko z ważnych powodów i w celu zabezpieczenia powództwa o wyłączenie wspólnika ze spółki"],
+        goodAnswer: "dopuszczalne, ale tylko z ważnych powodów i w celu zabezpieczenia powództwa o wyłączenie wspólnika ze spółki"
+    },
+    {
+        question: "Do sądu rejestrowego należy zgłosić: otwarcie likwidacji, nazwiska i imiona\n" +
+            "likwidatorów oraz ich adresy, sposób reprezentowania spółki przez likwidatorów\n" +
+            "i wszelkie w tym zakresie zmiany, nawet gdyby nie nastąpiła żadna zmiana w dotychczasowej reprezentacji spółki. Prawo i obowiązek dokonania zgłoszenia ma:",
+        answers: ["zarząd oraz każdy likwidator",
+            "każdy likwidator",
+            "zarząd"],
+        goodAnswer: "każdy likwidator"
+    },
+    {
+        question: "Akcje prostej spółki akcyjnej:",
+        answers: ["posiadają wartość nominalną i są podzielne",
+            "posiadają wartość nominalną i są niepodzielne",
+            "nie posiadają wartości nominalnej, nie stanowią części kapitału akcyjnego i są niepodzielne"],
+        goodAnswer: "nie posiadają wartości nominalnej, nie stanowią części kapitału akcyjnego i są niepodzielne"
+    },
+    {
+        question: "Kapitał akcyjny w prostej spółce akcyjnej powinien wynosić co najmniej:",
+        answers: ["1 złoty",
+            "50 złotych",
+            "5000 złotych"],
+        goodAnswer: "1 złoty"
+    },
+    {
+        question: "Umowa prostej spółki akcyjnej powinna być zawarta w formie:",
+        answers: ["pisemnej zwykłej",
+            "pisemnej z podpisami notarialnie poświadczonymi",
+            "aktu notarialnego"],
+        goodAnswer: "aktu notarialnego"
+    },
+    {
+        question: "Umowa prostej spółki akcyjnej:",
+        answers: ["może być zawarta przy wykorzystaniu wzorca umowy",
+            "nie może być zawarta przy wykorzystaniu wzorca umowy",
+            "może być zawarta przy wykorzystaniu wzorca umowy, gdy jej kapitał wynosi co najmniej 5000 zł"],
+        goodAnswer: "może być zawarta przy wykorzystaniu wzorca umowy"
+    },
+    {
+        question: "Wkłady w prostej spółce akcyjnej powinny zostać wniesione do spółki w całości w ciągu:",
+        answers: ["roku od dnia wpisu spółki do rejestru",
+            "2 lat od dnia wpisu spółki do rejestru",
+            "3 lat od dnia wpisu spółki do rejestru"],
+        goodAnswer: "3 lat od dnia wpisu spółki do rejestru"
+    },
+    {
+        question: "Akcje prostej spółki akcyjnej:",
+        answers: ["mają formę dokumentu, ale nie jak w spółce akcyjnej",
+            "mają formę dokumentu jak w spółce akcyjnej",
+            "nie mają formy dokumentu"],
+        goodAnswer: "nie mają formy dokumentu"
+    },
 ];
 
 export default questions;
