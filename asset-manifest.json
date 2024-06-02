@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/prawo-quiz/static/css/main.90df0596.css",
-    "main.js": "/prawo-quiz/static/js/main.b88fa88f.js",
+    "main.js": "/prawo-quiz/static/js/main.fbc89cd3.js",
     "index.html": "/prawo-quiz/index.html",
     "main.90df0596.css.map": "/prawo-quiz/static/css/main.90df0596.css.map",
-    "main.b88fa88f.js.map": "/prawo-quiz/static/js/main.b88fa88f.js.map"
+    "main.fbc89cd3.js.map": "/prawo-quiz/static/js/main.fbc89cd3.js.map"
   },
   "entrypoints": [
     "static/css/main.90df0596.css",
-    "static/js/main.b88fa88f.js"
+    "static/js/main.fbc89cd3.js"
   ]
 }
