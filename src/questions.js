@@ -307,6 +307,129 @@ const questions = [
             "nie może wstąpić do spółki w miejsce zmarłego partnera"],
         goodAnswer: "nie wstępuje do spółki w miejsce zmarłego partnera, chyba że umowa spółki stanowi inaczej"
     },
+    {
+        question: "Jeżeli komplementariuszem jest osoba prawna, firma spółki komandytowej powinna zawierać:",
+        answers: ["pełne brzmienie firmy (nazwy) tej osoby prawnej, z dodatkowym oznaczeniem " +
+        "„spółka komandytowa”. Nie wyklucza to zamieszczenia nazwiska komplementariusza, który jest osobą fizyczną",
+            "pełne brzmienie firmy (nazwy) tej osoby prawnej lub jego skrót, z dodatkowym " +
+            "oznaczeniem „spółka komandytowa”. Nie wyklucza to zamieszczenia nazwiska " +
+            "komplementariusza, który jest osobą fizyczną",
+            "pełne brzmienie firmy (nazwy) tej osoby prawnej lub jego skrót, z dodatkowym " +
+            "oznaczeniem „spółka komandytowa”. W takim wypadku nie zamieszcza się nazwiska komplementariusza, który jest osobą fizyczną"],
+        goodAnswer: "pełne brzmienie firmy (nazwy) tej osoby prawnej, z dodatkowym oznaczeniem " +
+            "„spółka komandytowa”. Nie wyklucza to zamieszczenia nazwiska komplementariusza, który jest osobą fizyczną"
+    },
+    {
+        question: "Umowa spółki komandytowej powinna być zawarta w formie:",
+        answers: ["aktu notarialnego",
+            "pisemnej dla celów dowodowych",
+            "pisemnej pod rygorem nieważności"],
+        goodAnswer: "aktu notarialnego"
+    },
+    {
+        question: "Wkładem komandytariusza do spółki:",
+        answers: ["nie może być w całości lub w części świadczenie niepieniężne (aport)",
+            "może być w całości lub w części świadczenie niepieniężne (aport)",
+            "może być świadczenie niepieniężne (aport), ale tylko w części"],
+        goodAnswer: "może być w całości lub w części świadczenie niepieniężne (aport)"
+    },
+    {
+        question: "Spółka komandytowa powstaje z chwilą:",
+        answers: ["zawarcia umowy spółki i złożenia wniosku o wpis do rejestru",
+            "zawarcia umowy spółki",
+            "wpisu do rejestru"],
+        goodAnswer: "wpisu do rejestru"
+    },
+    {
+        question: "W przypadku uszczuplenia majątku spółki przez stratę uważa się za zwrot wkładu w stosunku do wierzycieli:",
+        answers: ["każdą wypłatę dokonaną przez spółkę na rzecz komandytariusza przed uzupełnieniem wkładu do pierwotnej " +
+        "wartości określonej w umowie spółki. Dokonanie takich wypłat nie wymaga wpisu do rejestru",
+            "każdą wypłatę dokonaną przez spółkę na rzecz komandytariusza przed uzupełnieniem wkładu do pierwotnej wartości określonej w umowie spółki. Dokonanie " +
+            "takich wypłat wymaga dokonania wpisu do rejestru",
+            "każdą wypłatę dokonaną przez spółkę na rzecz komandytariusza"],
+        goodAnswer: "każdą wypłatę dokonaną przez spółkę na rzecz komandytariusza przed uzupełnieniem wkładu do pierwotnej " +
+            "wartości określonej w umowie spółki. Dokonanie takich wypłat nie wymaga wpisu do rejestru"
+    },
+    {
+        question: "Postanowienia umowy spółki komandytowej (w zakresie stosunku do osób trzecich) " +
+            "niezgodne z przepisami Kodeksu spółek handlowych dotyczącymi spółki komandytowej:",
+        answers: ["są nieważne",
+            "nie wywołują skutków prawnych wobec osób trzecich",
+            "mogą wywoływać skutki prawne wobec osób trzecich"],
+        goodAnswer: "nie wywołują skutków prawnych wobec osób trzecich"
+    },
+    {
+        question: "Śmierć komandytariusza nie stanowi przyczyny rozwiązania spółki. Spadkobiercy " +
+            "komandytariusza powinni wskazać spółce jedną osobę do wykonywania ich praw. " +
+            "Czynności dokonane przez pozostałych wspólników przed takim wskazaniem:",
+        answers: ["wiążą spadkobierców komandytariusza",
+            "nie wiążą spadkobierców komandytariusza",
+            "wiążą spadkobierców komandytariusza, o ile pozostają oni w dobrej wierze"],
+        goodAnswer: "wiążą spadkobierców komandytariusza"
+    },
+    {
+        question: "Jeżeli komplementariuszem jest osoba prawna, firma spółki komandytowo-akcyjnej powinna zawierać",
+        answers: ["pełne brzmienie lub skrót firmy (nazwy) tej osoby prawnej, z dodatkowym oznaczeniem „spółka komandytowo-akcyjna”. Nie wyklucza to za " +
+        "komplementariusza, który jest osobą fizyczną",
+            "pełne brzmienie firmy (nazwy) tej osoby prawnej, z dodatkowym oznaczeniem " +
+            "„spółka komandytowo-akcyjna”. Nie wyklucza to zamieszczenia nazwiska komplementariusza, który jest osobą fizyczną",
+            "pełne brzmienie firmy (nazwy) tej osoby prawnej, z dodatkowym oznaczeniem „spółka komandytowo-akcyjna”" +
+            "Nazwiska komplementariusza, który jest osobą fizyczną nie zamieszcza się"],
+        goodAnswer: "pełne brzmienie firmy (nazwy) tej osoby prawnej, z dodatkowym oznaczeniem " +
+            "„spółka komandytowo-akcyjna”. Nie wyklucza to zamieszczenia nazwiska komplementariusza, który jest osobą fizyczną"
+    },
+    {
+        question: "Statut spółki komandytowo-akcyjnej powinni podpisać:",
+        answers: ["co najmniej wszyscy komandytariusze",
+            "co najmniej wszyscy akcjonariusze",
+            "co najmniej wszyscy komplementariusze"],
+        goodAnswer: "co najmniej wszyscy komplementariusze"
+    },
+    {
+        question: "Statut spółki komandytowo-akcyjnej powinien być sporządzony w formie:",
+        answers: ["pisemnej z podpisami notarialnie poświadczonymi",
+            "pisemnej dla celów dowodowych",
+            "aktu notarialnego"],
+        goodAnswer: "aktu notarialnego"
+    },
+    {
+        question: "Jeżeli statut dopuszcza przyjęcie do spółki nowego komplementariusza, dotychczasowy" +
+            "akcjonariusz może uzyskać status komplementariusza albo osoba trzecia może przystąpić do spółki komandytowo-akcyjnej" +
+            "w charakterze komplementariusza za zgodą:",
+        answers: ["wszystkich dotychczasowych komplementariuszy i komandytariuszy",
+            "wszystkich dotychczasowych komplementariuszy",
+            "wszystkich dotychczasowych komplementariuszy i akcjonariuszy"],
+        goodAnswer: "wszystkich dotychczasowych komplementariuszy"
+    },
+    {
+        question: "Za zobowiązania spółki komandytowo-akcyjnej istnicjące w chwili wpisania go do rejestru nowy komplementariusz:",
+        answers: ["odpowiada",
+            "nie odpowiada",
+            "odpowiada, o ile statut spółki inaczej nie stanowi"],
+        goodAnswer: "odpowiada"
+    },
+    {
+        question: "Akcjonariusz spółki komandytowo-akcyjnej:",
+        answers: ["może reprezentować spółkę jedynie jako pełnomocnik",
+            "nie może reprezentować spółki",
+            "może reprezentować spółkę"],
+        goodAnswer: "może reprezentować spółkę jedynie jako pełnomocnik"
+    },
+    {
+        question: "Członków rady nadzorczej spółki komandytowo-akcyjnej powołuje i odwołuje:",
+        answers: ["ogół komplementariuszy",
+            "walne zgromadzenie",
+            "walne zgromadzenie komplementariuszy"],
+        goodAnswer: "walne zgromadzenie"
+    },
+    {
+        question: "Wytoczenie przez radę nadzorczą w imieniu spółki komandytowo-akcyjnej powództwa o odszkodowanie przeciwko komplementariuszom niepozbawionym prawa " +
+            "do prowadzenia spraw spółki komandytowo-akcyjnej lub jej reprezentowania jest:",
+        answers: ["możliwe",
+            "niemożliwe",
+            "niemożliwe, o ile statut inaczej nie stanowi"],
+        goodAnswer: "możliwe"
+    },
     // {
     //     question: "",
     //     answers: ["",
