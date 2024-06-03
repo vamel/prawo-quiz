@@ -598,13 +598,111 @@ const questions = [
             "nie mają formy dokumentu"],
         goodAnswer: "nie mają formy dokumentu"
     },
-    // {
-    //     question: "",
-    //     answers: ["",
-    //         "",
-    //         ""],
-    //     goodAnswer: ""
-    // },
+    {
+        question: "Statut spółki akcyjnej może zawierać dodatkowe postanowienia, oprócz wymaganych art. 304 § 1 i 2 Kodeksu Spółek Handlowych, chyba że:",
+        answers: ["dodatkowe postanowienia dotyczą spraw dotyczących wpisu spółki do rejestru",
+            "z ustawy wynika, że przewiduje ona wyczerpujące uregulowanie albo dodatkowe postanowienie statutu jest sprzeczne z naturą spółki akcyjnej lub dobrymi obyczajami",
+            "statut spółki akcyjnej jest niezgodny z prawem"],
+        goodAnswer: "z ustawy wynika, że przewiduje ona wyczerpujące uregulowanie albo dodatkowe postanowienie statutu jest sprzeczne z naturą spółki akcyjnej lub dobrymi obyczajami"
+    },
+    {
+        question: "Zarząd spółki akcyjnej ogłasza wezwanie o dokonanie wpłat na akcje:",
+        answers: ["raz",
+            "2-krotnie",
+            "3-krotnie"],
+        goodAnswer: "2-krotnie"
+    },
+    {
+        question: "Umowa ograniczająca na określony czas rozporządzanie akcją lub częścią ułamkową akcji jest dopuszczalna. " +
+            "Ograniczenie rozporządzania nie może być ustanowione na okres dłuższy niż:",
+        answers: ["10 lat od dnia zawarcia umowy",
+            "7 lat od dnia zawarcia umowy",
+            "5 lat od dnia zawarcia umowy"],
+        goodAnswer: "5 lat od dnia zawarcia umowy"
+    },
+    {
+        question: "Uchwałę o wyznaczeniu dnia dywidendy podejmuje się na:",
+        answers: ["zwyczajnym walnym zgromadzeniu",
+            "nadzwyczajnym walnym zgromadzeniu",
+            "nadzwyczajnym posiedzeniu zarządu"],
+        goodAnswer: "zwyczajnym walnym zgromadzeniu"
+    },
+    {
+        question: "Zwyczajne walne zgromadzenie spółki publicznej ustala dzień dywidendy oraz termin wypłaty dywidendy. " +
+            "Dzień dywidendy może być wyznaczony na dzień przypadający nie wcześniej niż 5 dni i nie później niż:",
+        answers: ["2 miesiące od dnia powzięcia uchwały",
+            "3 miesiące od dnia powzięcia uchwały",
+            "6 miesięcy od dnia powzięcia uchwały"],
+        goodAnswer: "3 miesiące od dnia powzięcia uchwały"
+    },
+    {
+        question: "Członkowie zarządu lub rady nadzorczej spółki akcyjnej, którzy ponoszą odpowiedzialność za dokonanie nienależnych " +
+            "świadczeń, odpowiadają za ich zwrot solidarnie z odbiorcą świadczenia. Roszczenia te przedawniają się z upływem: ",
+        answers: ["5 lat, licząc od dnia wypłaty",
+            "3 lat, licząc od dnia wypłaty",
+            "3 lat, licząc od dnia wypłaty, z wyjątkiem wierzytelności w stosunku do odbiorcy, który wiedział o bezprawności świadczenia"],
+        goodAnswer: "3 lat, licząc od dnia wypłaty, z wyjątkiem wierzytelności w stosunku do odbiorcy, który wiedział o bezprawności świadczenia"
+    },
+    {
+        question: "Akcje uprzywilejowane w zakresie dywidendy nie mogą przyznawać uprawnionemu dywidendy, która przewyższa dywidendę przeznaczoną " +
+            "do wypłaty akcjonariuszom uprawnionym z akcji nieuprzywilejowanych:",
+        answers: ["więcej niż o 1/3",
+            "więcej niż o połowę",
+            "więcej niż o 1/4"],
+        goodAnswer: "więcej niż o połowę"
+    },
+    {
+        question: "Świadectwa założycielskie w spółce akcyjnej dają prawo do:",
+        answers: ["uczestnictwa w podziale zysku spółki bez ograniczeń, po uprzednim odliczeniu na rzecz akcjonariuszy określonej " +
+        "w statucie minimalnej dywidendy",
+            "uczestnictwa w podziale zysku spółki bez ograniczeń",
+            "uczestnictwa w podziale zysku spółki w granicach ustalonych przez statut, po uprzednim odliczeniu na rzecz " +
+            "akcjonariuszy określonej w statucie minimalnej dywidendy"],
+        goodAnswer: "uczestnictwa w podziale zysku spółki w granicach ustalonych przez statut, po uprzednim odliczeniu na rzecz " +
+            "akcjonariuszy określonej w statucie minimalnej dywidendy"
+    },
+    {
+        question: "Rada nadzorcza podejmuje uchwały, jeżeli na posiedzeniu jest obecna co najmniej połowa jej członków, " +
+            "a wszyscy jej członkowie zostali zaproszeni. Statut spółki akcyjnej:",
+        answers: ["może przewidywać surowsze wymagania dotyczące kworum rady nadzorczej",
+            "nie może przewidywać surowszych wymagań dotyczących kworum rady nadzorczej",
+            "nie może przewidywać surowszych wymagań dotyczących kworum rady nadzorczej, z wyjątkiem sytuacji określonych w ustawie"],
+        goodAnswer: "może przewidywać surowsze wymagania dotyczące kworum rady nadzorczej"
+    },
+    {
+        question: "Postanowienie dotyczące roszczeń o naprawienie szkody wyrządzonej przy zawiązaniu spółki lub sprawowaniu zarządu " +
+            "albo nadzoru, zbycie i wydzierżawienie przedsiębiorstwa lub jego zorganizowanej części oraz ustanowienie na nich " +
+            "ograniczonego prawa rzeczowego albo emisja obligacji zamiennych lub z prawem pierwszeństwa w spółce akcyjnej wymaga:",
+        answers: ["uchwały walnego zgromadzenia",
+            "uchwały rady nadzorczej",
+            "decyzji zarządu"],
+        goodAnswer: "uchwały walnego zgromadzenia"
+    },
+    {
+        question: "Podwyższenie kapitału zakładowego spółki akcyjnej zgłasza do sądu rejestrowego:",
+        answers: ["zarząd",
+            "prezes zarządu",
+            "rada nadzorcza"],
+        goodAnswer: "zarząd"
+    },
+    {
+        question: "Wysokość kapitału docelowego spółki akcyjnej nie może przekraczać:",
+        answers: ["3/4 kapitału zakładowego na dzień udzielenia upoważnienia zarządowi",
+            "2/3 kapitału zakładowego na dzień udzielenia upoważnienia zarządowi",
+            "3/5 kapitału zakładowego na dzień udzielenia upoważnienia zarządowi"],
+        goodAnswer: "3/4 kapitału zakładowego na dzień udzielenia upoważnienia zarządowi"
+    },
+    {
+        question: "Otwarcie likwidacji spółki akcyjnej następuje z dniem:",
+        answers: ["wyłącznie uprawomocnienia się orzeczenia o rozwiązaniu spółki przez sąd",
+            "wyłącznie powzięcia przez walne zgromadzenie uchwały o rozwiązaniu",
+            "uprawomocnienia się orzeczenia o rozwiązaniu spółki przez sąd, powzięcia przez " +
+            "walne zgromadzenie uchwały o rozwiązaniu spółki lub zaistnienia innej przyczyny " +
+            "jej rozwiązania"],
+        goodAnswer: "uprawomocnienia się orzeczenia o rozwiązaniu spółki przez sąd, powzięcia przez " +
+            "walne zgromadzenie uchwały o rozwiązaniu spółki lub zaistnienia innej przyczyny " +
+            "jej rozwiązania"
+    },
     {
         question: "Członkowie zarządu, rady nadzorczej lub komisji rewizyjnej oraz likwidatorzy łączących się spółek " +
             "odpowiadają wobec wspólników tych spółek za szkody wyrządzone działaniem lub zaniechaniem, sprzecznym z prawem " +
