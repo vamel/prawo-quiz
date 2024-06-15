@@ -772,6 +772,516 @@ const questions = [
             "3 miesięcy od dnia otrzymania wiadomości o uchwale, nie później jednak niż w terminie 6 miesięcy od dnia powzięcia uchwały"],
         goodAnswer: "miesiąca od dnia otrzymania wiadomości o uchwale, nie później jednak niż w terminie 3 miesięcy od dnia powzięcia uchwały"
     },
+    {
+        question: "Postępowanie uregulowane w ustawie - Prawo upadłościowe może być wszczęte:",
+        answers: ["z urzędu",
+            "z urzędu lub na wniosek wierzycieli",
+            "tylko na wniosek złożony przez podmioty określone w ustawie"],
+        goodAnswer: "tylko na wniosek złożony przez podmioty określone w ustawie"
+    },
+    {
+        question: "Ogłoszenie upadłości publicznych samodzielnych zakładów opieki zdrowotnej:",
+        answers: ["jest niemożliwe",
+            "jest możliwe tylko w sytuacjach określonych ustawą - Prawo upadłościowe",
+            "jest możliwe"],
+        goodAnswer: "jest niemożliwe"
+    },
+    {
+        question: "Złożenie przez wierzyciela wniosku o ogłoszenie upadłości osoby fizycznej, która była przedsiębiorcą " +
+            ", po zaprzestaniu prowadzenia przez nią działalności gospodarczej:",
+        answers: ["nie jest możliwe",
+            "jest możliwe, jeżeli od dnia wykreślenia z właściwego rejestru nie upłynęło 6 miesięcy",
+            "jest możliwe, jeżeli od dnia wykreślenia z właściwego rejestru nie upłynął rok"],
+        goodAnswer: "jest możliwe, jeżeli od dnia wykreślenia z właściwego rejestru nie upłynął rok"
+    },
+    {
+        question: "Wierzyciel może złożyć wniosek o ogłoszenie upadłości osoby fizycznej, która faktycznie prowadziła " +
+            "działalność gospodarczą, nawet wówczas gdy nie dopełniła obowiązku jej złożenia we właściwym rejestrze, " +
+            "jeżeli od dnia zaprzestania prowadzenia działalności:",
+        answers: ["nie upłynęło 6 miesięcy",
+            "nie upłynął rok",
+            "nie upłynęło 18 miesięcy"],
+        goodAnswer: "działalność gospodarczą, nawet wówczas gdy nie dopełniła obowiązku jej złożenia we właściwym rejestrze"
+    },
+    {
+        question: "Domniemywa się, że dłużnik utracił zdolnosć do wykonywania swoich wymaganych zobowiązań pieniężnych, jeżeli " +
+            "opóźnienie w wykonaniu zobowiązań pieniężnych przekracza:",
+        answers: ["3 miesiące",
+            "6 miesięcy",
+            "rok"],
+        goodAnswer: "3 miesiące"
+    },
+    {
+        question: "Wniosek o ogłoszenie upadłości w stosunku do spółki jawnej, spółki partnerskiej, " +
+            "spółki komandytowej oraz spółki komandytowo-akcyjnej może zgłosić - pozą " +
+            "wierzycielami osobistymi i dłużnikiem, również:",
+        answers: ["każdy, kto ma w tym interes prawny",
+            "każdy ze wspólników spółki",
+            "każdy ze wspólników odpowiadających bez ograniczenia za zobowiązania spółki"],
+        goodAnswer: "każdy ze wspólników odpowiadających bez ograniczenia za zobowiązania spółki"
+    },
+    {
+        question: "Dłużnik jest obowiązany, nie później niż w terminie 30 dni od dnia, w którym " +
+            "wystąpiła podstawa do ogłoszenia upadłości, zgłosić w sądzie wniosek o ogłoszenie " +
+            "upadłości. W przypadku ustanowienia zarządu sukcesyjnego obowiązek ten spoczywa na zarządcy sukcesyjnym. " +
+            "Jeżeli podstawa do ogłoszenia upadłości wystąpiła " +
+            "przed ustanowieniem zarządu sukcesyjnego, termin do zgłoszenia wniosku o ogłoszenie " +
+            "upadłości biegnie od dnia, w którym został ustanowiony zarząd sukcesyjny. " +
+            "Zgłoszenie wniosku o ogłoszenie upadłości przez zarządcę sukcesyjnego:",
+        answers: ["nie wymaga zgody osób, na rzecz których działa zarządca sukcesyjny",
+            "wymaga zgody osób, na rzecz których działa zarządca sukcesyjny",
+            "wymaga zgody osób, na rzecz których działa zarządca sukcesyjny, chyba że ustawa stanowi inaczej"],
+        goodAnswer: "nie wymaga zgody osób, na rzecz których działa zarządca sukcesyjny"
+    },
+    {
+        question: "Sąd rozpoznaje sprawę (z wniosku o ogłoszenie upadłości) na posiedzeniu:",
+        answers: ["jawnym",
+            "jawnym, może jednak rozpatrzyć wniosek na posiedzeniu niejawnym, jeżeli uzna to za konieczne",
+            "niejawnym"],
+        goodAnswer: "niejawnym"
+    },
+    {
+        question: "Na postanowienie sądu kończące postępowanie oraz w przypadkach określonych w ustawie przysługuje:",
+        answers: ["zażalenie",
+            "odwołanie",
+            "skarga"],
+        goodAnswer: "zażalenie"
+    },
+    {
+        question: "Czy od postanowienia sądu II instancji w sprawie o ogłoszenie upadłości przysługuje skarga kasacyjna?",
+        answers: ["tak",
+            "nie",
+            "tak, ale po uprzednim podaniu pisemnego uzasadnienia postanowienia przez sąd"],
+        goodAnswer: "nie"
+    },
+    {
+        question: "Wierzycielowi, którego siedziba lub miejsce zwykłego pobytu w dniu otwarcia postępowania znajduje się za granicą, " +
+            "przysługuje zażalenie na postanowienie o ogłoszeniu upadłości wyłącznie w części dotyczącej jurysdykcji " +
+            "sądów polskich w terminie:",
+        answers: ["14 dni od dnia obwieszczenia postanowienia o ogłoszeniu upadłości w Rejestrze",
+            "21 dni od dnia obwieszczenia postanowienia o ogłoszeniu upadłości w Rejestrze",
+            "30 dni od dnia obwieszczenia postanowienia o ogłoszeniu upadłości w Rejestrze"],
+        goodAnswer: "30 dni od dnia obwieszczenia postanowienia o ogłoszeniu upadłości w Rejestrze"
+    },
+    {
+        question: "Sąd II instancji:",
+        answers: ["może orzec o ogłoszeniu upadłości",
+            "nie może orzec o ogłoszeniu upadłości",
+            "może orzec o ogłoszeniu upadłości tylko w sytuacji gdy dłużnik jest osobą fizyczną"],
+        goodAnswer: "nie może orzec o ogłoszeniu upadłości"
+    },
+    {
+        question: "Postanowienie o ogłoszeniu upadłości jest skuteczne i wykonalne z dniem jego:",
+        answers: [" uprawomocnienia się, chyba że przepis szczególny stanowi inaczej",
+            "wydania, chyba że przepis szczególny stanowi inaczej",
+            "obwieszczenia, chyba że przepis szczególny stanowi inaczej"],
+        goodAnswer: "wydania, chyba że przepis szczególny stanowi inaczej"
+    },
+    {
+        question: "Z dniem ogłoszenia upadłości upadły:",
+        answers: ["traci prawo zarządu oraz możliwość korzystania z mienia wchodzącego do masy upadłości i rozporządzania nim",
+            "nie traci prawa zarządu oraz możliwości korzystania z mienia wchodzącego do masy upadłości i rozporządzania nim",
+            "zachowuje jedynie ograniczone prawo zarządu oraz możliwość korzystania wchodzącego do masy upadłości i rozporządzania nim"],
+        goodAnswer: "traci prawo zarządu oraz możliwość korzystania z mienia wchodzącego do masy upadłości i rozporządzania nim"
+    },
+    {
+        question: "Ustanawiając zabezpieczenie przez zarząd przymusowy, sąd:",
+        answers: ["wyznacza zarządcę przymusowego oraz określa zakres i sposób wykonywania tego zarządu",
+            "wyznacza kandydatów na zarządcę przymusowego",
+            "wyznacza zarządców przymusowych"],
+        goodAnswer: "wyznacza zarządcę przymusowego oraz określa zakres i sposób wykonywania tego zarządu"
+    },
+    {
+        question: "Sędzia-komisarz może postanowić, aby upadły będący osobą fizyczną albo członkowie " +
+            "organu zarządzającego upadłego niebędącego osobą fizyczną nie opuszczali " +
+            "terytorium RP bez jego zezwolenia. Na to postanowienie sędziego-komisarza przysługuje:",
+        answers: ["zażalenie",
+            "sprzeciw",
+            "skarga"],
+        goodAnswer: "zażalenie"
+    },
+    {
+        question: "Mienie wyłączone uchwałą zgromadzenia wierzycieli:",
+        answers: ["co do zasady, wchodzi do masy upadłości",
+            "nie wchodzi do masy upadłości",
+            "wchodzi do masy upadłości"],
+        goodAnswer: "nie wchodzi do masy upadłości"
+    },
+    {
+        question: "We wniosku o wyłączenie z masy upadłości należy zgłosić wszelkie twierdzenia, " +
+            "zarzuty i dowody na ich poparcie pod rygorem:",
+        answers: ["odrzucenia wniosku",
+            "utraty prawa powoływania ich w toku dalszego postępowania - bez żadnych wyjątków",
+            "utraty prawa powoływania ich w toku dalszego postępowania, chyba że powołanie ich we wniosku było niemożliwe"],
+        goodAnswer: "utraty prawa powoływania ich w toku dalszego postępowania, chyba że powołanie ich we wniosku było niemożliwe"
+    },
+    {
+        question: "Na postanowienie o wyłączeniu z masy upadłości zażalenie przysługuje:",
+        answers: ["wyłącznie upadłemu",
+            "wyłącznie wierzycielom",
+            "upadłemu i wierzycielom"],
+        goodAnswer: "upadłemu i wierzycielom"
+    },
+    {
+        question: "Po ogłoszeniu upadłości:",
+        answers: ["nie można obciążyć składników masy upadłości hipoteką, " +
+        "rejestrowym, zastawem skarbowym lub hipoteką morską w celu zabezpieczenia " +
+        "wierzytelności powstałej przed ogłoszeniem upadłości, chyba że wniosek o wpis " +
+        "hipoteki został złożony w sądzie co najmniej na 6 miesięcy przed dniem złożenia " +
+        "wniosku o ogłoszenie upadłości",
+            "nie można obciążyć składników masy upadłości prawem zastawu, zastawu rejestrowego" +
+        " i zastawu skarbowego ani dokonać wpisu w księdze wieczystej lub rejestrze " +
+        "dotyczącego tych składników celem zabezpieczenia wierzytelności, chyba że powstała ona przed ogłoszeniem upadłości",
+            "nie można obciążyć składników masy upadłości prawem zastawu, zastawu rejestrowego" +
+        " i zastawu skarbowego, można natomiast dokonać wpisu w księdze wieczystej " +
+        "lub rejestrze dotyczącego tych składników celem zabezpieczenia wierzytelności"],
+        goodAnswer: "nie można obciążyć składników masy upadłości hipoteką, " +
+            "rejestrowym, zastawem skarbowym lub hipoteką morską w celu zabezpieczenia " +
+            "wierzytelności powstałej przed ogłoszeniem upadłości, chyba że wniosek o wpis " +
+            "hipoteki został złożony w sądzie co najmniej na 6 miesięcy przed dniem złożenia " +
+            "wniosku o ogłoszenie upadłości"
+    },
+    {
+        question: "Z masy upadłości mogą być zaspokojone odsetki od wierzytelności należne od " +
+            "upadłego za okres do dnia ogłoszenia upadłości. Nie dotyczy to jednak odsetek od " +
+            "wierzytelności zabezpieczonych hipoteką, wpisem w rejestrze, zastawem, zastawem " +
+            "rejestrowym, zastawem skarbowym albo hipoteką morską. Odsetki te mogą bowiem być zaspokojone: ",
+        answers: ["tylko z przedmiotu zabezpieczenia",
+            "zarówno z masy upadłości, jak i z przedmiotu zabezpieczeń",
+            "z masy upadłości i tylko w przypadku, gdy ustawa tak stanowi"],
+        goodAnswer: "tylko z przedmiotu zabezpieczenia"
+    },
+    {
+        question: "Jeżeli termin płatności nieoprocentowanego długu upadłego w dniu ogłoszenia upadłości nie nastapił, " +
+            "do potrącanie przyjmuje się sumę należności zmniejszoną o odsetki ustawowe, nie wyższe jednak niż:",
+        answers: ["5% - za czas od dnia ogłoszenia upadłości do dnia płatności i nie więcej niż za rok",
+            "5% - za czas od dnia ogłoszenia upadłości do dnia płatności i nie więcej niż za 2 lata",
+            "6% - za czas od dnia ogłoszenia upadłości do dnia płatności i nie więcej niż za 2 lata"],
+        goodAnswer: "6% - za czas od dnia ogłoszenia upadłości do dnia płatności i nie więcej niż za 2 lata"
+    },
+    {
+        question: "Roszczenie wynikające z umowy zawartej w wyniku przyjęcia oferty złożonej przez upadłego:",
+        answers: ["może być przez wierzyciela dochodzone w postępowaniu upadłościowym tylko wtedy, gdy oświadczenie o " +
+        "przyjęciu oferty zostało złożone upadłemu przed dniem ogłoszenia upadłości",
+            "może być przez wierzyciela dochodzone w postępowaniu upadłościowym – bez żadnych dodatkowych warunków",
+            "nie może być przez wierzyciela dochodzone w postępowaniu upadłościowym"],
+        goodAnswer: "może być przez wierzyciela dochodzone w postępowaniu upadłościowym tylko wtedy, gdy oświadczenie o " +
+            "przyjęciu oferty zostało złożone upadłemu przed dniem ogłoszenia upadłości"
+    },
+    {
+        question: "Zastrzeżone w umowie sprzedaży na rzecz sprzedawcy prawo własności nie wygasa z powodu ogłoszenia upadłości nabywcy, jeżeli jest:",
+        answers: ["bezpłatne",
+            "potwierdzone aktem notarialnym",
+            "skuteczne wobec jego wierzycieli według przepisów ustawy – Kodeks cywilny"],
+        goodAnswer: "skuteczne wobec jego wierzycieli według przepisów ustawy – Kodeks cywilny"
+    },
+    {
+        question: "Umowa agencyjna z dniem ogłoszenia upadłości jednej ze stron:",
+        answers: ["wygasa",
+            "nie wygasa",
+            "co do zasady, nie wygasa"],
+        goodAnswer: "wygasa"
+    },
+    {
+        question: "Jeżeli w dniu ogłoszenia upadłości przedmiot najmu lub dzierżawy nie był jeszcze wydany upadłemu, " +
+            "każda ze stron może odstąpić od umowy najmu lub dzierżawy nieruchomości zawartej przez upadłego jako najemcę lub dzierżawcę. " +
+            "Oświadczenie o odstąpieniu powinno być złożone w terminie:",
+        answers: ["miesiąca od dnia ogłoszenia upadłości",
+            "2 miesięcy od dnia ogłoszenia upadłości",
+            "3 miesięcy od dnia ogłoszenia upadłości"],
+        goodAnswer: "2 miesięcy od dnia ogłoszenia upadłości"
+    },
+    {
+        question: "Ustanowienie rozdzielności majątkowej na podstawie orzeczenia sądu jest bezskuteczne w " +
+            "stosunku do masy upadłości (chyba że pozew o ustanowienie rozdzielności majątkowej został złożony co najmniej" +
+            " na 2 lata przed dniem złożenia wniosku o ogłoszenie upadłości), " +
+            "o ile orzeczenie zostało wydane w ciągu:",
+        answers: ["3 miesięcy przed dniem złożenia wniosku o ogłoszenie upadłości",
+            "6 miesięcy przed dniem złożenia wniosku o ogłoszenie upadłości",
+            "roku przed złożeniem wniosku o ogłoszenie upadłości"],
+        goodAnswer: "roku przed złożeniem wniosku o ogłoszenie upadłości"
+    },
+    {
+        question: "Po ogłoszeniu upadłości postępowania sądowe, administracyjne lub " +
+            "administracyjne dotyczące masy upadłości mogą być wszczęte i prowadzone:",
+        answers: ["wyłącznie przez nadzorcę sądowego lub przeciw niemu",
+            "wyłącznie przez zarządcę lub przeciwko niemu",
+            "wyłącznie przez syndyka lub przeciwko niemu"],
+        goodAnswer: "wyłącznie przez syndyka lub przeciwko niemu"
+    },
+    {
+        question: "Sąd upadłościowy orzeka w składzie:",
+        answers: ["jednego sędziego zawodowego, jednak w przedmiocie wynagrodzenia syndyka " +
+        "oraz rozpoznając zażalenie na postanowienie sędziego-komisarza, sąd upadłościowy orzeka w składzie 3 sędziów zawodowych",
+            "3 sędziów zawodowych",
+            "zawsze jednego sędziego zawodowego"],
+        goodAnswer: "jednego sędziego zawodowego, jednak w przedmiocie wynagrodzenia syndyka " +
+            "oraz rozpoznając zażalenie na postanowienie sędziego-komisarza, sąd upadłościowy orzeka w składzie 3 sędziów zawodowych"
+    },
+    {
+        question: "Sędzia-komisarz w zakresie swych czynności ma prawa i obowiązki:",
+        answers: ["wyłącznie sądu",
+            "sądu i przewodniczącego",
+            "wyłącznie przewodniczącego"],
+        goodAnswer: "sądu i przewodniczącego"
+    },
+    {
+        question: "Syndyk:",
+        answers: ["odpowiada za zobowiązania zaciągnięte w sprawach dotyczących masy upadłości",
+            "odpowiada za zobowiązania zaciągnięte w sprawach dotyczących masy upadłości, całym swoim majątkiem",
+            "nie odpowiada za zobowiązania zaciągnięte w sprawach dotyczących masy upadłości"],
+        goodAnswer: "nie odpowiada za zobowiązania zaciągnięte w sprawach dotyczących masy upadłości"
+    },
+    {
+        question: "Obowiązki sprawozdawcze ciążące na upadłym:",
+        answers: ["upadły wykonuje osobiście",
+            "wykonuje sędzia-komisarz",
+            "wykonuje syndyk"],
+        goodAnswer: "wykonuje syndyk"
+    },
+    {
+        question: "Ogłoszenie upadłości:",
+        answers: ["nie ma wpływu na zdolność prawną upadłego, ogranicza jednak jego zdolność do czynności prawnych",
+            "nie ma wpływu na zdolność prawną oraz zdolność do czynności prawnych upadłego",
+            "ogranicza zarówno zdolność prawną, jak i zdolność do czynności prawnych upadłego"],
+        goodAnswer: "nie ma wpływu na zdolność prawną oraz zdolność do czynności prawnych upadłego"
+    },
+    {
+        question: "Głosy wierzycieli biorących udział w zgromadzeniu wierzycieli:",
+        answers: ["są równe",
+            "nie są równe, wierzyciele głosują z sumą wierzytelności umieszczoną nz liście wierzytelności",
+            "nie są równe, to sędzia-komisarz oznacza sumę, według której oblicza się głos każdego wierzyciela"],
+        goodAnswer: "nie są równe, wierzyciele głosują z sumą wierzytelności umieszczoną nz liście wierzytelności"
+    },
+    {
+        question: "Na podstawie wierzytelności, którą wierzyciel nabył w drodze przelewu lub indosu po ogłoszeniu upadłości:",
+        answers: ["nie ma on prawa głosu na zgromadzeniu wierzycieli",
+            "nie ma on prawa głosu na zgromadzeniu wierzycieli, chyba że przejście wierzytelności " +
+            "nastąpiło wskutek spłacenia przez niego długu, za który odpowiadał " +
+            "osobiście albo określonymi przedmiotami majątkowymi, ze stosunku prawnego " +
+            "powstałego przed ogłoszeniem upadłości",
+            "ma on prawo głosu na zgromadzeniu wierzycieli"],
+        goodAnswer: "nie ma on prawa głosu na zgromadzeniu wierzycieli, chyba że przejście wierzytelności " +
+            "nastąpiło wskutek spłacenia przez niego długu, za który odpowiadał " +
+            "osobiście albo określonymi przedmiotami majątkowymi, ze stosunku prawnego " +
+            "powstałego przed ogłoszeniem upadłości"
+    },
+    {
+        question: "Członkowie rady wierzycieli pełnią swoje obowiązki:",
+        answers: ["wyłącznie osobiście",
+            "wyłącznie osobiście albo przez swoje organy",
+            "osobiście albo przez pełnomocników"],
+        goodAnswer: "osobiście albo przez pełnomocników"
+    },
+    {
+        question: "Wierzyciel osobisty upadłego, który chce uczestniczyć w postępowaniu upadłościowym, " +
+            "jeżeli niezbędne jest ustalenie jego wierzytelności, powinien w terminie oznaczonym w postanowieniu o " +
+            "ogłoszeniu upadłości zgłosić sędziemu-komisarzowi swoją wierzytelność. Uprawnienie do zgłoszenia wierzytelności " +
+            "przysługuje wierzycielowi ponadto, gdy jego wierzytelność była zabezpieczona hipoteką, zastawem, " +
+            "zastawem rejestrowym, zastawem skarbowym, hipoteką morską lub przez inny wpis w księdze wieczystej lub w rejestrze okręgowym. " +
+            "Jeżeli wierzyciel nie zgłosi tych wierzytelności:",
+        answers: ["wierzytelności wygasają",
+            "nie mogą być one umieszczone na liście wierzytelności",
+            "będą one umieszczone na liście wierzytelności z urzędu"],
+        goodAnswer: "będą one umieszczone na liście wierzytelności z urzędu"
+    },
+    {
+        question: "Jeżeli w dniu ogłoszenia upadłości wierzytelność bez zastrzeżenia odsetek" +
+            " nie była jeszcze wymagalna, na liście wierzytelności umieszcza się sumę pieniężną wierzytelności " +
+            "pomniejszoną o odsetki ustawowe, nie wyższe jednak " +
+            "niż 6% i za czas od dnia ogłoszenia upadłości do dnia wymagalności, najwyżej jednak za:",
+        answers: ["rok",
+            "18 miesięcy",
+            "2 lata"],
+        goodAnswer: "2 lata"
+    },
+    {
+        question: "Jeżeli wierzytelność zgłoszono po zatwierdzeniu ostatecznego planu podziału funduszów masy upadłości:",
+        answers: ["pozostawia się ją bez rozpoznania",
+            "co do zasady, pozostawia się ją bez rozpoznania",
+            "czynności, które już dokonane w postępowaniu upadłościowym są skuteczne wobec wierzyciela, " +
+            "który tę wierzytelność zgłosił po zatwierdzeniu planu, a jego uznaną wierzytelność uwzględnia się " +
+            "tylko w planach podziału funduszów masy upadłości sporządzonych po " +
+            "jej uznaniu - bez względu na przyczynę opóźnienia"],
+        goodAnswer: "czynności, które już dokonane w postępowaniu upadłościowym są skuteczne wobec wierzyciela, " +
+            "który tę wierzytelność zgłosił po zatwierdzeniu planu, a jego uznaną wierzytelność uwzględnia się " +
+            "tylko w planach podziału funduszów masy upadłości sporządzonych po " +
+            "jej uznaniu - bez względu na przyczynę opóźnienia"
+    },
+    {
+        question: "Sędzia-komisarz może uwzględnić zmianę wierzyciela zgłoszoną po przekazaniu mu listy wierzytelności, " +
+            "a przed jej ostatecznym zatwierdzeniem. Jej nieuwzględnienie:",
+        answers: ["pozbawia nabywcę wierzytelności możliwości realizacji jego uprawnień na " +
+        "podstawie przepisów ustawy w toku dalszego postępowania, z wyjątkiem sytuacji opisanych w ustawie",
+            "pozbawia nabywcę wierzytelności możliwości realizacji jego uprawnień na podstawie przepisów ustawy w toku dalszego postępowania",
+            "nie pozbawia nabywcy wierzytelności możliwości realizacji jego uprawnień na podstawie przepisów ustawy w toku dalszego postępowania"],
+        goodAnswer: "nie pozbawia nabywcy wierzytelności możliwości realizacji jego uprawnień na podstawie przepisów ustawy w toku dalszego postępowania"
+    },
+    {
+        question: "Sędzia-komisarz, zastępca sędziego-komisarza albo wyznaczony sędzia rozpoznaje sprzeciw, co do zasady:",
+        answers: ["na rozprawie, w terminie 2 miesięcy od jego wniesienia",
+            "na posiedzeniu niejawnym, w terminie 2 miesięcy od jego wniesienia",
+            "na posiedzeniu niejawnym, w terminie miesiąca od jego wniesienia"],
+        goodAnswer: "na posiedzeniu niejawnym, w terminie miesiąca od jego wniesienia"
+    },
+    {
+        question: "Sędzia-komisarz może z urzędu dokonać zmian na liście wierzytelności w razie stwierdzenia, że " +
+            "na liście umieszczono wierzytelności, które w całości lub części nie istnieją, lub nie umieszczono na liście wierzytelności, " +
+            "które podlegają umieszczeniu na liście z urzędu. Na postanowienie to:",
+        answers: ["nie przysługuje zażalenie",
+            "przysługuje zażalenie",
+            "zażalenie przysługuje tylko wierzycielom, którzy wykażą interes prawny w jego wniesieniu"],
+        goodAnswer: "przysługuje zażalenie"
+    },
+    {
+        question: "Po sporządzeniu spisu inwentarza i sprawozdania finansowego albo po złożeniu pisemnego sprawozdania ogólnego syndyk przeprowadza likwidację masy upadłości. " +
+            "Do czasu uprawomocnienia się postanowienia o ogłoszeniu upadłości sędzia-komisarz:",
+        answers: ["wstrzymuje z mocy ustawy likwidację masy upadłości",
+            "może wstrzymać likwidację masy upadłości",
+            "nie może wstrzymać likwidacji masy upadłości"],
+        goodAnswer: "może wstrzymać likwidację masy upadłości"
+    },
+    {
+        question: "Sprzedaż dokonana w postępowaniu upadłościowym:",
+        answers: ["nie ma skutków sprzedaży egzekucyjnej",
+            "może mieć skutki sprzedaży egzekucyjnej",
+            "ma skutki sprzedaży egzekucyjnej"],
+        goodAnswer: "ma skutki sprzedaży egzekucyjnej"
+    },
+    {
+        question: "Sprzedaż nieruchomości dokonana w postępowaniu upadłościowym powoduje wygaśnięcie praw oraz " +
+            "praw i roszczeń osobistych ujawnionych przez wpis do księgi wieczystej lub nieujawnionych w ten sposób, " +
+            "lecz zgłoszonych sędziemu-komisarzowi. W miejsce prawa, które wygasło, uprawniony nabywa prawo do zaspokojenia " +
+            "wartości wygasłego prawa z ceny uzyskanej ze sprzedaży obciążonej nieruchomości. Skutek ten " +
+            "powstaje z chwilą zawarcia umowy sprzedaży. " +
+            "Podstawą do wykreślenia praw, które wygasły na skutek sprzedaży, jest:",
+        answers: ["prawomocny plan podziału sumy uzyskanej ze sprzedaży nieruchomości obciążonej",
+            "układ wraz z odpisem prawomocnego postanowienia o zatwierdzeniu układu",
+            "odpis prawomocnego postanowienia o ogłoszeniu upadłości"],
+        goodAnswer: "prawomocny plan podziału sumy uzyskanej ze sprzedaży nieruchomości obciążonej"
+    },
+    {
+        question: "Na wniosek właściciela nieruchomości władnącej sędzia-komisarz może postanowić, że służebność gruntowa, " +
+            "która nie znajduje pełnego pokrycia w cenie nabycia, zostaje utrzymana w mocy, jeżeli jest dla nieruchomości władnącej konieczna, " +
+            "a nie obniża w sposób istotny wartości nieruchomości obciążonej. Wniosek taki może być zgłoszony:",
+        answers: ["w terminie 2 tygodni od dnia zatwierdzenia planu podziału sumy uzyskanej ze sprzedaży nieruchomości obciążonej",
+            "aż do ogłoszenia planu podziału sumy uzyskanej ze sprzedaży nieruchomości obciążonej",
+            "najpóźniej w zarzutach do planu podziału sumy uzyskanej ze sprzedaży nieruchomości obciążonej"],
+        goodAnswer: "najpóźniej w zarzutach do planu podziału sumy uzyskanej ze sprzedaży nieruchomości obciążonej"
+    },
+    {
+        question: "Jeżeli w skład masy upadłości wchodzą rzeczy ruchome, których nie można zbyć z zachowaniem przepisów ustawy, sędzia-komisarz:",
+        answers: ["zarządza ich wyłączenie z masy upadłości",
+            "może postanowić o ich wyłączeniu z masy upadłości albo zezwolić na ich zniszczenie",
+            "zarządza ich zniszczenie"],
+        goodAnswer: "może postanowić o ich wyłączeniu z masy upadłości albo zezwolić na ich zniszczenie"
+    },
+    {
+        question: "Wraz ze sprzedażą przedsiębiorstwa upadłego wszelkie koncesje, zezwolenia, licencje i ulgi, które zostały udzielone upadłemu:",
+        answers: ["wygasają",
+            "wygasają, chyba że ustawa lub decyzja o ich udzieleniu stanowi inaczej",
+            "przechodzą na nabywcę przedsiębiorstwa upadłego, chyba że odrębne ustawy stanowią inaczej"],
+        goodAnswer: "przechodzą na nabywcę przedsiębiorstwa upadłego, chyba że odrębne ustawy stanowią inaczej"
+    },
+    {
+        question: "Jeżeli wszyscy wierzyciele, którzy zgłosili swoje wierzytelności, żądają umorzenia postępowania, sąd:",
+        answers: ["umarza postępowanie upadłościowe",
+            "może umorzyć postępowanie upadłościowe",
+            "zawiesza postępowanie upadłościowe"],
+        goodAnswer: "umarza postępowanie upadłościowe"
+    },
+    {
+        question: "Postanowienie o umorzeniu postępowania upadłościowego doręcza się:",
+        answers: ["upadłemu, syndykowi oraz członkom rady wierzycieli, postanowienia nie obwieszcza się, Na postanowienie nie przysługuje zażalenie",
+            "upadłemu, syndykowi oraz członkom rady wierzycieli, postanowienie obwieszcza się, na postanowienie nie przysługuje zażalenie",
+            "upadłemu, syndykowi oraz członkom rady wierzycieli, postanowienie obwieszcza się, na postanowienie przysługuje zażalenie"],
+        goodAnswer: "upadłemu, syndykowi oraz członkom rady wierzycieli, postanowienie obwieszcza się, na postanowienie przysługuje zażalenie"
+    },
+    {
+        question: "Po umorzeniu postępowania upadłościowego umarza się wszczęte przez syndyka niezakończone procesy o uznanie za bezskuteczną czynności " +
+            "dokonanej przez upadłego ze szkodą dla wierzycieli, w takim wypadku wzajemne roszczenia o zwrot kosztów procesu:",
+        answers: ["wygasają,",
+            "nadal istnieją",
+            "stają się zobowiązaniami naturalnymi"],
+        goodAnswer: "wygasają"
+    },
+    {
+        question: "Sąd po wykonaniu ostatecznego planu podziału stwierdza zakończenie postępowania " +
+            "upadłościowego, jeśli w toku postępowania upadłościowego wszyscy wierzyciele zostali zaspokojeni, sąd:",
+        answers: ["także stwierdza zakończenie postępowania",
+            "nie stwierdza zakończenia postępowania",
+            "nie musi stwierdzić zakończenia postępowania"],
+        goodAnswer: "także stwierdza zakończenie postępowania"
+    },
+    {
+        question: "Upadły będący osobą fizyczną może złożyć wniosek o ustalenie planu spłaty wierzycieli " +
+            "i umorzenie pozostałej części zobowiązań, które nie zostały zaspokojone w postępowaniu upadłościowym, w terminie:",
+        answers: ["7 dni od dnia obwieszczenia postanowienia o zakończeniu postępowania upadłościowego",
+            "30 dni od dnia obwieszczenia postanowienia o zakończeniu postępowania upadłościowego",
+            "60 dni od dnia obwieszczenia postanowienia o zakończeniu postępowania upadłościowego"],
+        goodAnswer: "30 dni od dnia obwieszczenia postanowienia o zakończeniu postępowania upadłościowego"
+    },
+    {
+        question: "W przypadku prawomocnego odrzucenia albo oddalenia wniosku o ogłoszenie upadłości postępowanie upadłościowe:",
+        answers: ["podlega uchyleniu",
+            "podlega umorzeniu",
+            "podlega zawieszeniu"],
+        goodAnswer: "podlega uchyleniu"
+    },
+    {
+        question: "W odrębnym postępowaniu upadłościowym wobec osób fizycznych nieprowadzących działalności gospodarczej, " +
+            "wniosek o ogłoszenie upadłości może zgłosić, co do zasady:",
+        answers: ["dłużnik, wierzyciel zaś tylko w sytuacjach określonych w ustawie",
+            "dłużnik i prokurator",
+            "dłużnik i wierzyciel będący instytucją kredytową lub bankiem krajowym - w każdej sytuacji"],
+        goodAnswer: "dłużnik, wierzyciel zaś tylko w sytuacjach określonych w ustawie"
+    },
+    {
+        question: "Sprawy o ogłoszenie upadłości w odrębnym postępowaniu upadłościowym wobec osób fizycznych nieprowadzących " +
+            "działalności gospodarczej rozpoznaje sąd upadłościowy w składzie:",
+        answers: ["1 sędziego zawodowego",
+            "1 sędziego zawodowego i 2 ławników",
+            "3 sędziów zawodowych"],
+        goodAnswer: "1 sędziego zawodowego"
+    },
+    {
+        question: "Syndykowi postanowienie o ogłoszeniu upadłości (tzw. upadłość konsumencka):",
+        answers: ["doręcza się",
+            "nie doręcza się",
+            "doręcza się na jego żądanie"],
+        goodAnswer: "doręcza się"
+    },
+    {
+        question: "Po ogłoszeniu upadłości (tzw. upadłość konsumencka) syndyk zwraca się do " +
+            "naczelnika urzędu skarbowego właściwego dla upadłego z wnioskiem o udzielenie " +
+            "informacji dotyczących upadłego, mających wpływ na ocenę jego sytuacji majątkowej, w szczególności " +
+            "dotyczących okoliczności powodujących powstanie po stronie " +
+            "upadłego obowiązku podatkowego w okresie:",
+        answers: ["3 lat przed dniem zgłoszenia wniosku o ogłoszenie upadłości",
+            "5 lat przed dniem zgłoszenia wniosku o ogłoszenie upadłości",
+            "10 lat przed dniem zgłoszenia wniosku o ogłoszenie upadłości"],
+        goodAnswer: "5 lat przed dniem zgłoszenia wniosku o ogłoszenie upadłości"
+    },
+    {
+        question: "Co do zasady sąd umarza postępowanie w przedmiocie ogłoszenia upadłości " +
+            "osoby fizycznej nieprowadzącej działalności gospodarczej na wniosek:",
+        answers: ["syndyka",
+            "wierzycieli",
+            "upadłego"],
+        goodAnswer: "upadłego"
+    },
+    {
+        question: "Jeżeli w skład masy upadłości (w tzw. upadłości konsumenckiej) wchodzi lokal " +
+            "mieszkalny albo dom jednorodzinny, w którym zamieszkuje upadły, a konieczne " +
+            "jest zaspokojenie potrzeb mieszkaniowych upadłego i osób pozostających na jego " +
+            "utrzymaniu, z sumy uzyskanej z jego sprzedaży wydziela się upadłemu kwotę odpowiadającą " +
+            "przeciętnemu czynszowi najmu lokalu mieszkalnego w tej samej lub " +
+            "sąsiedniej miejscowości za okres od:",
+        answers: ["3 do 6 miesięcy",
+            "6 do 12 miesięcy",
+            "12 do 24 miesięcy"],
+        goodAnswer: "12 do 24 miesięcy"
+    },
 ];
 
 export default questions;
