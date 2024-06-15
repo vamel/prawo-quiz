@@ -801,7 +801,7 @@ const questions = [
         answers: ["nie upłynęło 6 miesięcy",
             "nie upłynął rok",
             "nie upłynęło 18 miesięcy"],
-        goodAnswer: "działalność gospodarczą, nawet wówczas gdy nie dopełniła obowiązku jej złożenia we właściwym rejestrze"
+        goodAnswer: "nie upłynął rok"
     },
     {
         question: "Domniemywa się, że dłużnik utracił zdolnosć do wykonywania swoich wymaganych zobowiązań pieniężnych, jeżeli " +
