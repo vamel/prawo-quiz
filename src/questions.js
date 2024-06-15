@@ -1200,7 +1200,7 @@ const questions = [
     {
         question: "Po umorzeniu postępowania upadłościowego umarza się wszczęte przez syndyka niezakończone procesy o uznanie za bezskuteczną czynności " +
             "dokonanej przez upadłego ze szkodą dla wierzycieli, w takim wypadku wzajemne roszczenia o zwrot kosztów procesu:",
-        answers: ["wygasają,",
+        answers: ["wygasają",
             "nadal istnieją",
             "stają się zobowiązaniami naturalnymi"],
         goodAnswer: "wygasają"
