@@ -1103,10 +1103,7 @@ const questions = [
             "który tę wierzytelność zgłosił po zatwierdzeniu planu, a jego uznaną wierzytelność uwzględnia się " +
             "tylko w planach podziału funduszów masy upadłości sporządzonych po " +
             "jej uznaniu - bez względu na przyczynę opóźnienia"],
-        goodAnswer: "czynności, które już dokonane w postępowaniu upadłościowym są skuteczne wobec wierzyciela, " +
-            "który tę wierzytelność zgłosił po zatwierdzeniu planu, a jego uznaną wierzytelność uwzględnia się " +
-            "tylko w planach podziału funduszów masy upadłości sporządzonych po " +
-            "jej uznaniu - bez względu na przyczynę opóźnienia"
+        goodAnswer: "pozostawia się ją bez rozpoznania"
     },
     {
         question: "Sędzia-komisarz może uwzględnić zmianę wierzyciela zgłoszoną po przekazaniu mu listy wierzytelności, " +
