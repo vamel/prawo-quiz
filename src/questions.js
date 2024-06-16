@@ -213,7 +213,7 @@ const questions = [
         goodAnswer: "wyłączeni od prowadzenia spraw spółki"
     },
     {
-        question: "Jeżeli w sprawach nieprzekraczających zwykłych czynności " +
+        question: "Jeżeli w sprawach nieprzekraczających zwykłych czynności spółki wymagana jest " +
             "uchwała wspólników, konieczna jest:",
         answers: ["uchwała podjęta większością głosów wspólników",
             "jednomyślność wszystkich wspólników mających prawo prowadzenia spraw spółki",
